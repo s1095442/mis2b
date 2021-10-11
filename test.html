@@ -13,6 +13,10 @@
 				font-size: 36px;
 				color: #55ff55; }
 	</style>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
 <body>
 	<nav>
@@ -23,7 +27,7 @@
 		</ul>
 	</nav>
 	
-	<main>
+	<main class="container-fluid bg-primary text-white text-center">>
 		
 		<nav>
 			<h1>林佳儀(Lin Jia Yi) </h1>										
@@ -32,15 +36,16 @@
 		</nav>
 
 		<img src="family.jpg" alt="照片">
-		<br><br><br>																	
-	
-	<session id="aboutme">
+		<br><br><br>
+
+		<div class="row">
+			<session id="aboutme" class="col-lg-4">
 		<header>關於我</header>
 		<h3>靜宜大學資訊管理學系二年級</h3>
 		<h3>E-Mail: <a href="s1095442@gm.pu.edu.tw">s1095442@gm.pu.edu.tw</a></h3>
 	</session>
 
-	<article id="bookmark">
+	<article id="bookmark" class="col-lg-4">
 		<header>珍藏書籤</header>
 		<h3>生命中的每一剎時間</h3>
 		<h3>都是向永恆借來的片羽</h3>
@@ -48,10 +53,11 @@
 		<h3>都是無限天機所流瀉的微光</h3>
 	</article>
 
-	<aside id="youtube">
+	<aside id="youtube" class="col-lg-4">
 		<header>推薦影片</header>
 		<iframe src="https://www.youtube.com/embed/=AhAJ6J01R7w" allowfullscreen> </iframe>
 	</aside>
+</div><br><br>	
 	
 	<footer>
 		Copyright © 林佳儀 . All Rights Reserved.
